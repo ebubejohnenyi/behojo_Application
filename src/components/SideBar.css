@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.side-nav{
+    background-color: white;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid rgba(128, 128, 128, 0.348);
+}
+.side-nav h3{
+    color: black;
+}
+.side-nav span{
+    color: black;
+}
+.side-nav .side-nav-content{
+    padding: 30px 10px 10px 10px;
+}
+.side-nav .side-nav-content ul{
+    margin-top: 70px;
+}
+.side-nav .side-nav-content > div ul :link{
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding: 15px;
+    width: 160px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.side-nav .side-nav-content ul :any-link img{
+    margin-right: 10px;
+}
+.side-nav > div:nth-child(2){
+    margin-top: 240px;
+}
+.campaign{
+    text-align: center;
+}
+
+.campaign button{
+    border: 2px solid rgba(75, 163, 75, 0.533);
+    padding: 10px 45px;
+    background: transparent;
+    box-shadow: rgba(75, 163, 75, 0.533);
+    margin-top: 20px;
+}

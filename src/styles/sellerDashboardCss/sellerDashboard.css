@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+#side-bar-holder{
+    height: 100%;
+    width: fit-content;
+}
+#header-container{
+    width: 100%;
+    overflow: hidden;
+    background: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto 100%;
+    align-items: center;
+}
+.main-nav{
+    width: 84%;
+    height: fit-content;
+    background: #F1EFEF;
+}
+.greet-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 0px 0px 20px;
+}
+.greet-container > div:nth-child(1) h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.greet-container > div:nth-child(1) small{
+    font-weight: 500;
+    color: #808080;
+    display: flex;
+    align-items: center;
+}
+.greet-container > div:nth-child(1) small span img{
+    width: 16px;
+}
+.greet-container > div:nth-child(2){
+    background-color: rgba(215, 219, 219, 0.389);
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.greet-container > div:nth-child(2) button{
+    padding: 4px 15px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.greet-container > div:nth-child(2) button:focus{
+    background-color: brown;
+    color: white;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px 10px 20px;
+}
+.card{
+    background: white;
+    width: 290px;
+    border-radius: 7px;
+}
+.card > p:nth-child(1){
+    color: gray;
+    font-size:18px;
+    padding: 10px;
+}
+.card-content {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.card-content .cal{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.card-content .cal p{
+    font-size: 35px;
+    font-weight: 600;
+}
+.cal small{
+    background: rgba(7, 246, 7, 0.087);
+    padding: 5px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: green;
+}
+.cal small img{
+    width: 16px;
+    margin-right: 5px;
+}
+.card-content .cal-red{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+}
+.card-content .cal-red p{
+    font-size: 35px;
+    font-weight: 600;
+}
+.cal-red small{
+    background: rgba(255, 0, 0, 0.04);
+    padding: 5px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.cal-red small img{
+    width: 16px;
+    margin-right: 5px;
+}
+.chart-todo-container{
+    padding: 5px;
+    display: flex;
+    margin: 0px 20px;
+}
+.chart-todo-container .chart-container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.chart-container > div:nth-child(1) h3{
+    font-size: 25px;
+    margin: 12px 0px;
+}
+.impression-calls{
+    display: flex;
+    align-items: center;
+}
+.impression-calls > div{
+    display: flex;
+    align-items: center;
+}
+.impression-calls > div img{
+    width: 15px;
+    height: 15px;
+}
+.impression-calls > div p{
+    color: gray;
+    font-weight: 600;
+}
+.impression-calls > div:nth-child(2){
+    margin-left: 20px;
+}
+.chart-line{
+    margin: 15px;
+    flex-direction: column;
+    display: flex;
+}
+.chart-line small{
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 10px 0px;
+}
+.chart-line small span{
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.422);
+    width: 100%;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.chart-line small a{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.422);
+    width: 100%;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.days-of-week-container{
+    display: flex;
+    justify-content: center;
+    /* border-top: 2px solid rgba(128, 128, 128, 0.51); */
+    /* padding-top: 10px; */
+}
+.days-of-week{
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+    width: 90%;
+}
+.chart-todo-container .todo-list-container{
+    background: white;
+    display: flex;
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 10px;
+}
+.todo-list-container > div:nth-child(1){
+    width: 100%;
+}
+.todo-list-container > div:nth-child(1) > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo-list-container > div:nth-child(1) > div:nth-child(1) button{
+    background: transparent;
+    border: 1px solid #808080;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.todo-list-container > div:nth-child(1) > div:nth-child(2){
+    margin: 20px 0px;
+}
+.todo-list-container > div:nth-child(1) > div:nth-child(2) > div{
+    margin: 10px 0px 10px 25px; 
+    display: flex;
+    align-items: center;
+}
+.todo-list-container > div:nth-child(1) > div:nth-child(2) p{
+    margin: 10px;
+}
+.todo-list-container > div:nth-child(1) > div:nth-child(2) p span{
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 3px 12px;
+    margin-right: 10px;
+}
+.todo-list-container > div:nth-child(1) > div:nth-child(2) > div small{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 0px 0px 0px 20px;
+}
+.todo-list-container > div:nth-child(1) > div:nth-child(2) > div small img{
+    width: 13px;
+}
+.todo-list-container > div:nth-child(1) > div:nth-child(2) > div small span{
+    margin-right: 5px;
+}
+.customer-service{
+    background: brown;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px;
+    height: fit-content;
+    position: fixed;
+    right: 0;
+    top: 85%;
+    cursor: pointer;
+}
+.customer-service img{
+    width: 35px;
+    height: 35px;
+}

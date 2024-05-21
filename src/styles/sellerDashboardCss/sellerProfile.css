@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.seller-p-container {
+    display: grid;
+    grid-template-columns: auto 100%;
+    align-items: center;
+    position: relative;
+}
+
+.seller-p-side-nav {
+    background-color: white;
+    width: 240px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid rgba(128, 128, 128, 0.348);
+}
+
+.seller-p-side-nav h3 {
+    color: black;
+}
+
+.seller-p-side-nav span {
+    color: black;
+}
+
+.seller-p-side-nav .seller-p-screen-side-nav-content {
+    padding: 30px 10px 10px 10px;
+}
+
+.seller-p-side-nav .seller-p-screen-side-nav-content ul {
+    margin-top: 70px;
+}
+
+.seller-p-side-nav .seller-p-screen-side-nav-content>div ul :link {
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding: 15px;
+    width: 160px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.seller-p-side-nav .seller-p-screen-side-nav-content ul :link img {
+    margin-right: 10px;
+}
+
+.seller-p-side-nav>div:nth-child(2) {
+    margin-top: 240px;
+}
+
+.seller-p-campaign {
+    text-align: center;
+}
+
+.seller-p-campaign button {
+    border: 2px solid rgba(75, 163, 75, 0.533);
+    padding: 10px 45px;
+    background: transparent;
+    box-shadow: rgba(75, 163, 75, 0.533);
+    margin-top: 20px;
+}
+
+.seller-p-main-nav {
+    width: 84%;
+    height: 100%;
+    background: #F1EFEF;
+}
+#seller-p-header-container{
+    width: 100%;
+    overflow: hidden;
+    background: white;
+}
+
+.account-container {
+    padding: 20px 0px 0px 20px;
+    background: white;
+    height: 100%;
+}
+
+.account-container .profile-contiainer {
+    margin: 40px 5px;   
+    display: flex;
+    align-items: center;
+}
+
+.account-container .profile-contiainer>div:nth-child(1) {
+    border-radius: 100%;
+    overflow: hidden;
+    background: blue;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.account-container .profile-contiainer>div:nth-child(1) img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.account-container .profile-contiainer>div:nth-child(2) {
+    margin-left: 20px;
+}
+
+.account-container .profile-contiainer>div:nth-child(2) h2 {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.account-container .profile-contiainer>div:nth-child(2) small {
+    color: rgb(208, 141, 17);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.profile-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.profile-content-container>div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile-content-container>div p {
+    margin: 0px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+}
+
+.visible {
+    transition: 0.5s all;
+    display: block;
+}
+
+.notVisible {
+    transition: 0.5s all;
+    display: none;
+}
+.activeTab {
+    border-bottom: 4px solid brown;
+    transition: 0.3s all;
+}
+#edit-profile-container {
+    margin: 20px 0px 5px 0px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+#edit-profile-container>div:nth-child(1) {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 10px;
+}
+
+#edit-profile-container>div:nth-child(1) p {
+    font-weight: 650;
+    font-size: 17px;
+    color: #CF353B;
+    margin: 5px;
+}
+
+#edit-profile-container form {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    gap: 15px;
+}
+
+#edit-profile-container form div label {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    margin: 10px;
+}
+
+#edit-profile-container form div p {
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    height: 35px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    width: 550px;
+}
+
+#edit-profile-container form div:nth-child(2)>div p {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#edit-profile-container form div:nth-child(2)>div button {
+    color: rgb(203, 9, 9);
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 10px;
+    background: transparent;
+}
+
+#edit-profile-container form .save-btn {
+    background: rgb(165, 163, 163);
+    width: fit-content;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 16px;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+}
+
+.hcf-customer-service {
+    background: brown;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px;
+    height: fit-content;
+    position: fixed;
+    right: 0;
+    top: 85%;
+    cursor: pointer;
+}
+
+.hcf-customer-service img {
+    width: 35px;
+    height: 35px;
+}
+#toDo-list-container{
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+#toDo-list-container>div:nth-child(1) {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#toDo-list-container>div:nth-child(1) button {
+    background: transparent;
+    border: none;
+    float: right;
+}
+
+#toDo-list-container>div:nth-child(1) button img {
+    width: 30px;
+    margin-left: 30px;
+}
+
+#toDo-list-container>div:nth-child(2) h3 {
+    color: rgb(64, 59, 59);
+    margin-bottom: 20px;
+}
+
+#toDo-list-container>div:nth-child(2)>div {
+    display: flex;
+    align-items: center;
+}
+
+#toDo-list-container>div:nth-child(2)>div span img {
+    width: 18px;
+    margin-right: 15px;
+}
+
+#toDo-list-container>div:nth-child(2)>div .addTask {
+    font-size: 18px;
+    border: none;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+}
+
+#toDo-list-container>div:nth-child(2)>div:nth-child(3) {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#toDo-list-container>div:nth-child(2)>div:nth-child(3) form input {
+    padding: 10px;
+    width: 300px;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+#toDo-list-container>div:nth-child(2)>div:nth-child(3) form textarea {
+    resize: none;
+    width: 400px;
+    height: 100px;
+    margin: 10px 0px;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.displayTaskBtn {
+    display: block;
+}
+
+.notDisplayTaskBtn {
+    display: none;
+}
+
+.post {
+    background-color: #CF353B;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}

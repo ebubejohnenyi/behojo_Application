@@ -1,0 +1,10 @@
+#verifyToken-form > input{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid red;
+}
+#verifyToken-form #verify-btn{
+    padding: 10px;
+    margin: 10px;
+}
